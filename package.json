@@ -4,8 +4,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "webpack-dev-server --config webpack.dev.js",
-    "build": "fsbin emptyDir build && fsbin copy public build && webpack --config webpack.build.js",
-    "clean": "fsbin emptyDir build",
+    "build": "fsbin emptyDir dist && fsbin copy public dist && webpack --config webpack.build.js",
+    "clean": "fsbin emptyDir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

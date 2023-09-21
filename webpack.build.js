@@ -48,8 +48,8 @@ module.exports = {
     app: app,
   },
   output: {
-    filename: "static/app.js",
-    path: path.resolve(__dirname, 'build'),
+    filename: "js/app.js",
+    path: path.resolve(__dirname, 'dist'),
     publicPath: "/",
   },
   mode: 'production',
