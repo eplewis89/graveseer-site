@@ -1,4 +1,4 @@
-package main
+package handler
 
 import (
 	"fmt"
@@ -13,30 +13,25 @@ type Page struct {
 }
 
 func main() {
-	http.HandleFunc("/", viewHandler)
+	http.HandleFunc("/", Handler)
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
-func viewHandler(w http.ResponseWriter, r *http.Request) {
+func Handler(w http.ResponseWriter, r *http.Request) {
 	title := r.URL.Path[len("/"):]
 
 	if title == "" {
 		title = "index"
 	}
 
-	p, _ := loadPage(title)
-
-	fmt.Fprintf(w, "<h1>%s</h1><div>%s</div>", p.Title, p.Body)
-}
-
-func loadPage(title string) (*Page, error) {
 	filename := "pages/" + title + ".txt"
-
 	body, err := os.ReadFile(filename)
 
 	if err != nil {
-		return nil, err
+		fmt.Fprintf(w, "<h1>500 Internal Server Error</h1><div>%s</div>", err)
 	}
 
-	return &Page{Title: title, Body: body}, nil
+	p := &Page{Title: title, Body: body}
+
+	fmt.Fprintf(w, "<h1>%s</h1><div>%s</div>", p.Title, p.Body)
 }
