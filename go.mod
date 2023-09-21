@@ -1,4 +1,4 @@
-module graveseerband.com
+module graveseerband
 
 go 1.19
 
