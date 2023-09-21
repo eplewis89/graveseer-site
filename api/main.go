@@ -1,37 +1,29 @@
-package handler
+package api
 
 import (
-	"fmt"
-	"log"
 	"net/http"
-	"os"
+
+	"github.com/gin-gonic/gin"
 )
 
-type Page struct {
-	Title string
-	Body  []byte
+var (
+	app *gin.Engine
+)
+
+func routes(r *gin.RouterGroup) {
+	r.GET("/", func(c *gin.Context) {
+		c.String(http.StatusOK, "Index Page")
+	})
 }
 
-func main() {
-	http.HandleFunc("/", Handler)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+func init() {
+	app = gin.New()
+
+	r := app.Group("/api")
+
+	routes(r)
 }
 
-func Handler(w http.ResponseWriter, r *http.Request) {
-	title := r.URL.Path[len("/"):]
-
-	if title == "" {
-		title = "index"
-	}
-
-	filename := "pages/" + title + ".txt"
-	body, err := os.ReadFile(filename)
-
-	if err != nil {
-		fmt.Fprintf(w, "<h1>500 Internal Server Error</h1><div>%s</div>", err)
-	}
-
-	p := &Page{Title: title, Body: body}
-
-	fmt.Fprintf(w, "<h1>%s</h1><div>%s</div>", p.Title, p.Body)
+func Hanler(w http.ResponseWriter, r *http.Request) {
+	app.ServeHTTP(w, r)
 }
