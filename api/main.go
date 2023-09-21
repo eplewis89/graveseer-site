@@ -11,7 +11,7 @@ var (
 )
 
 func routes(r *gin.RouterGroup) {
-	r.GET("/", func(c *gin.Context) {
+	r.GET("/index", func(c *gin.Context) {
 		c.String(http.StatusOK, "Index Page")
 	})
 }
