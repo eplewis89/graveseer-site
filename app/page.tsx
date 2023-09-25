@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-10 m-10">
-      <div className="flex justify-center items-center">
+    <main className="flex min-h-screen flex-col items-center p-10">
+      <div className="flex justify-center items-center m-10">
         <img src="/graveseer-logo-dead.png"/>
       </div>
       <div className="flex justify-center items-center text-3xl m-5">
