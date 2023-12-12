@@ -6,9 +6,9 @@ function Layout({ children }: any) {
     return (
         <>
             <Header />
-            <main className="flex flex-col items-center pt-10">
+            <article className="flex flex-col items-center">
                 {children}
-            </main>
+            </article>
             <Footer />
         </>
     );
