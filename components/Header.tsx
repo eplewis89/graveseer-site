@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Link from 'next/link';
+import Image from 'next/image'
 
 export default function Header() {
     return (
@@ -7,7 +9,7 @@ export default function Header() {
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <Link href="/" className="cursor-pointer flex cursor title-font font-medium items-center mb-5 md:mb-0">
                     <span className="max-w-xs ml-5 text-xl">
-                        <img src="/graveseer-logo-dead.png"/>
+                        <Image src="/graveseer-logo-dead.png" alt="graveseer logo"/>
                     </span>
                 </Link>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">

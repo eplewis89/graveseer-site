@@ -3,17 +3,18 @@ import type { ReactElement } from 'react'
 //  Import the layout
 import Layout from '@/components/Layout'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Page = () => {
   return (
       <>
         <div className="text-center text-md w-1/4 m-4">
           <p className="p-2">Jan 12, 2024 @ Che Cafe (7pm)</p>
-          <p className="p-2"><img src="/12Jan24-CheCafe.jpg" alt="graveseer at che cafe san diego 12 jan 2024"/></p>
+          <p className="p-2"><Image src="/12Jan24-CheCafe.jpg" alt="graveseer at che cafe san diego 12 jan 2024"/></p>
         </div>
         <div className="text-center text-md w-1/4 m-4">
           <p className="p-2">&quot;Infernal&quot; now streaming on all major platforms</p>
-          <p className="p-2"><img src="/graveseer-infernal-album.png" alt="graveseer infernal album cover"/></p>
+          <p className="p-2"><Image src="/graveseer-infernal-album.png" alt="graveseer infernal album cover"/></p>
           <p className="p-2 flex flex-row place-content-center ">
             { /*spotify*/ }
             <Link className="m-2" href="https://open.spotify.com/album/5YFSSW8xurkJAulaz2bHlO" target="_blank">
