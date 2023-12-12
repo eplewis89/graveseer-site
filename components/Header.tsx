@@ -9,7 +9,11 @@ export default function Header() {
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <Link href="/" className="cursor-pointer flex cursor title-font font-medium items-center mb-5 md:mb-0">
                     <span className="max-w-xs ml-5 text-xl">
-                        <Image src="/graveseer-logo-dead.png" alt="graveseer logo"/>
+                        <Image
+                            src="/graveseer-logo-dead.png"
+                            alt="graveseer logo"
+                            width={500}
+                            height={500}/>
                     </span>
                 </Link>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
