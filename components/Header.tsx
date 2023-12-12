@@ -8,7 +8,7 @@ export default function Header() {
         <header className="body-font" >
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <Link href="/" className="cursor-pointer flex cursor title-font font-medium items-center mb-5 md:mb-0">
-                    <span className="max-w-xs ml-5 text-xl">
+                    <span className="max-w-xs text-xl">
                         <Image
                             src="/graveseer-logo-dead.png"
                             alt="graveseer logo"
