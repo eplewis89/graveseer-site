@@ -37,7 +37,7 @@ export default function Header() {
 
                         { /*email*/ }
                         <li className="mr-3 hover:text-gray-100">
-                            <Link href='mailto:graveseerband@gmail.com'>
+                            <Link href='mailto:contact@graveseerband.com'>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-6 w-6"
