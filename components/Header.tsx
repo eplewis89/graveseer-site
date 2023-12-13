@@ -35,6 +35,12 @@ export default function Header() {
                             </Link>
                         </li>
 
+                        <li className="mr-5 hover:text-gray-100">
+                            <Link href='https://graveseer.bandcamp.com/merch' target='_blank'>
+                                Merch
+                            </Link>
+                        </li>
+
                         { /*email*/ }
                         <li className="mr-3 hover:text-gray-100">
                             <Link href='mailto:contact@graveseerband.com'>
