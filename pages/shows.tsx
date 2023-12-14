@@ -13,6 +13,9 @@ const Page = () => {
         <title>Graveseer - Shows</title>
         <meta property="og:title" content="Graveseer - Shows" key="title" />
       </Head>
+      <div className="text-center text-2xl m-4">
+        <h1>Upcoming Shows</h1>
+      </div>
       <div className="text-center text-md m-4">
         <p className="p-2">Jan 12, 2024 @ Che Cafe (7pm)</p>
         <p className="p-2"><Link href="https://chedoom.bpt.me">Click Here for Presale Tickets - $10</Link></p>
