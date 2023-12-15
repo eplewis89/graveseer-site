@@ -2,6 +2,8 @@ import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 
+import { Analytics } from '@vercel/analytics/react';
+
 function Layout({ children }: any) {
     return (
         <div className="backdrop-blur-[2px] backdrop-brightness-50 min-h-screen">
@@ -10,6 +12,7 @@ function Layout({ children }: any) {
                 {children}
             </article>
             <Footer />
+            <Analytics />
         </div>
     );
 }
