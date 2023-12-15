@@ -13,20 +13,21 @@ const Page = () => {
         <title>Graveseer - Shows</title>
         <meta property="og:title" content="Graveseer - Shows" key="title" />
       </Head>
-      <div className="text-center text-2xl m-4">
-        <h1>Upcoming Shows</h1>
-      </div>
+      <h1 className="text-center text-4xl m-4">Upcoming Shows</h1>
       <div className="text-center text-md m-4">
-        <p className="p-2">Jan 12, 2024 @ Che Cafe (7pm)</p>
-        <p className="p-2"><Link href="https://chedoom.bpt.me">Click Here for Presale Tickets - $10</Link></p>
         <p className="p-2">
-          <Image 
-            src="/12Jan24-CheCafe.jpg" 
-            alt="graveseer at che cafe san diego 12 jan 2024"
-            width={500}
-            height={500}/>
+          <Link href="https://chedoom.bpt.me" target='_blank'>
+            <Image 
+              src="/12Jan24-CheCafe.jpg" 
+              alt="graveseer at che cafe san diego 12 jan 2024"
+              width={800}
+              height={500}/>
+          </Link>
         </p>
+        <p className="p-2">Jan 12, 2024 @ Che Cafe (7pm)</p>
+        <p className="p-2"><Link href="https://chedoom.bpt.me" target='_blank'>Click Here for Presale Tickets - $10</Link></p>
       </div>
+      <hr />
       <div className="text-center text-md m-4">
         <p className="p-2">Feb 25, 2024 @ Winston&apos;s OB</p>
         <p className="p-2">More info coming soon</p>

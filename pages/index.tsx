@@ -14,17 +14,26 @@ const Page = () => {
         <meta property="og:title" content="Graveseer" key="title" />
       </Head>
       <div className="text-center text-md m-4">
+        <p className="p-2">
+          <Link href="https://chedoom.bpt.me" target='_blank'>
+            <Image
+              src="/12Jan24-CheCafe.jpg"
+              alt="graveseer at che cafe san diego 12 jan 2024"
+              width={800}
+              height={500}/>
+          </Link>
+        </p>
         <p className="p-2">Jan 12, 2024 @ Che Cafe (7pm)</p>
-        <p className="p-2"><Link href="https://chedoom.bpt.me">Click Here for Presale Tickets - $10</Link></p>
+        <p className="p-2"><Link href="https://chedoom.bpt.me" target='_blank'>Click Here for Presale Tickets - $10</Link></p>
+      </div>
+      <div className="text-center text-md m-4">
         <p className="p-2">
           <Image
-            src="/12Jan24-CheCafe.jpg"
-            alt="graveseer at che cafe san diego 12 jan 2024"
+            src="/graveseer-infernal-album.png"
+            alt="graveseer infernal album cover"
             width={800}
             height={500}/>
         </p>
-      </div>
-      <div className="text-center text-md m-4">
         <p className="p-2">&quot;Infernal&quot; now streaming on all major platforms</p>
         <p className="p-2 flex flex-row place-content-center ">
           { /*spotify*/ }
@@ -57,13 +66,6 @@ const Page = () => {
               <path d="M22 17.607c-.786 2.28-3.139 6.317-5.563 6.361-1.608.031-2.125-.953-3.963-.953-1.837 0-2.412.923-3.932.983-2.572.099-6.542-5.827-6.542-10.995 0-4.747 3.308-7.1 6.198-7.143 1.55-.028 3.014 1.045 3.959 1.045.949 0 2.727-1.29 4.596-1.101.782.033 2.979.315 4.389 2.377-3.741 2.442-3.158 7.549.858 9.426zm-5.222-17.607c-2.826.114-5.132 3.079-4.81 5.531 2.612.203 5.118-2.725 4.81-5.531z"/>
           </svg>
           </Link>
-        </p>
-        <p className="p-2">
-          <Image
-            src="/graveseer-infernal-album.png"
-            alt="graveseer infernal album cover"
-            width={800}
-            height={500}/>
         </p>
       </div>
     </>
