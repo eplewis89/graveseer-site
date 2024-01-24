@@ -28,7 +28,7 @@ const Page = () => {
             height={500}/>
         </p>
         <p className="p-2">Hailing from San Diego, California, Graveseer is a doom metal band with Justin on drums, Erin on vocals and bass, and Theo on guitar.</p>
-        <p className="p-2">We started in the summer of 2022, with a goal to write and perform, and have fun doing something we enjoy. Please contact us if you want to book us at your venue, we'd love to play a show with you!</p>
+        <p className="p-2">We started in the summer of 2022, with a goal to write and perform, and have fun doing something we enjoy. Please contact us if you want to book us at your venue, we&apos;d love to play a show with you!</p>
         <p className="p-2"><Link href="https://outlawsofthesun.blogspot.com/2023/08/graveseer-identity-ep-review.html" target="_blank">Check out a review of our album &quot;Infernal&quot;</Link></p>
       </div>
       <div className="text-center text-md m-4">
