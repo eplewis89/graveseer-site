@@ -10,8 +10,14 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Graveseer - About Us</title>
-        <meta property="og:title" content="Graveseer - About Us" key="title" />
+        <title>Graveseer - About Us - San Diego Doom Metal Band</title>
+        <meta property="og:title" content="Graveseer - About Us - San Diego Doom Metal Band" key="title" />
+        <meta name="title" content="Graveseer - About Us - San Diego Doom Metal Band"/>
+        <meta name="description" content="Graveseer is a doom metal band from San Diego, California"/>
+        <meta name="keywords" content="doom metal, metal, san diego, california, band, live music, music, musician, album, stoner metal, stoner, doom, sludge, sludge metal, doommetal, stonermetal, sludgemetal, doom rock, rock"/>
+        <meta name="robots" content="index, follow"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="language" content="English"/>
       </Head>
       <div className="text-left text-md m-4">
         <p className="p-2">
@@ -21,9 +27,14 @@ const Page = () => {
             width={800}
             height={500}/>
         </p>
-        <p className="p-2">Graveseer is Justin on drums, Erin on vocals and bass, and Theo on guitar.</p>
-        <p className="p-2">We started sometime in the summer of 2022, with a goal to write and perform, and have fun doing something we enjoy.</p>
+        <p className="p-2">Hailing from San Diego, California, Graveseer is a doom metal band with Justin on drums, Erin on vocals and bass, and Theo on guitar.</p>
+        <p className="p-2">We started in the summer of 2022, with a goal to write and perform, and have fun doing something we enjoy. Please contact us if you want to book us at your venue, we'd love to play a show with you!</p>
         <p className="p-2"><Link href="https://outlawsofthesun.blogspot.com/2023/08/graveseer-identity-ep-review.html" target="_blank">Check out a review of our album &quot;Infernal&quot;</Link></p>
+      </div>
+      <div className="text-center text-md m-4">
+        <p className="p-2">
+          For booking inquiries, please contact us at <Link href='mailto:booking@graveseerband.com'>booking@graveseerband.com</Link>
+        </p>
       </div>
     </>
   )

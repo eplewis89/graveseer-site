@@ -4,15 +4,27 @@ import type { ReactElement } from 'react'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Page = () => {
   return (
     <>
       <Head>
-        <title>Graveseer - Past Shows</title>
-        <meta property="og:title" content="Graveseer - Shows" key="title" />
+        <title>Graveseer - Past Shows - San Diego Doom Metal Band</title>
+        <meta property="og:title" content="Graveseer - Past Shows - San Diego Doom Metal Band" key="title" />
+        <meta name="title" content="Graveseer - Past Shows - San Diego Doom Metal Band"/>
+        <meta name="description" content="Graveseer is a doom metal band from San Diego, California"/>
+        <meta name="keywords" content="doom metal, metal, san diego, california, band, live music, music, musician, album, stoner metal, stoner, doom, sludge, sludge metal, doommetal, stonermetal, sludgemetal, doom rock, rock"/>
+        <meta name="robots" content="index, follow"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="language" content="English"/>
       </Head>
       <h1 className="text-center text-4xl m-4">Past Shows</h1>
+      <div className="text-center text-md m-4">
+        <p className="p-2">
+          For booking inquiries, please contact us at <Link href='mailto:booking@graveseerband.com'>booking@graveseerband.com</Link>
+        </p>
+      </div>
       <div className="text-center text-md m-4">
         <p className="p-2">
           <Image 
