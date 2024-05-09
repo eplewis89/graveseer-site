@@ -20,19 +20,6 @@ const Page = () => {
       </Head>
       <div className="text-center text-md m-4">
         <p className="p-2">
-          <Link href="https://fb.me/e/1KLCrfBxe" target='_blank'>
-            <Image
-              src="/2024-march-30-bancroft.jpg"
-              alt="graveseer at the bancroft san diego 30 march 2024"
-              width={800}
-              height={500}/>
-          </Link>
-        </p>
-        <p className="p-2">March 30, 2024 @ The Bancroft</p>
-        <p className="p-2"><Link href="https://fb.me/e/1KLCrfBxe" target='_blank'>Click Here for Event Link</Link></p>
-      </div>
-      <div className="text-center text-md m-4">
-        <p className="p-2">
           <Image
             src="/graveseer-infernal-album.png"
             alt="graveseer infernal album cover"
