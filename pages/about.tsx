@@ -22,7 +22,7 @@ const Page = () => {
       <div className="text-left text-md m-4">
         <p className="p-2">
           <Image
-            src="/graveseer-skull-dead.jpg"
+            src="/graveseer-skull-dead.png"
             alt="band photo"
             width={800}
             height={500}/>
