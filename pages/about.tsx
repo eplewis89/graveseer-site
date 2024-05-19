@@ -22,12 +22,12 @@ const Page = () => {
       <div className="text-left text-md m-4">
         <p className="p-2">
           <Image
-            src="/band.jpg"
+            src="/graveseer-skull-dead.jpg"
             alt="band photo"
             width={800}
             height={500}/>
         </p>
-        <p className="p-2">Hailing from San Diego, California, Graveseer is a progressive doom metal band with Erin on vocals and bass, and Theo on guitar.</p>
+        <p className="p-2">Hailing from San Diego, California, Graveseer is a progressive doom metal band with Stan on Drums, Theo on guitar, and Erin on vocals and bass.</p>
         <p className="p-2">We started in the summer of 2022 with a goal to write and perform, and have fun doing something we enjoy. Please <Link href='mailto:booking@graveseerband.com' target="_blank">contact us</Link> if you want to book us at your venue, we&apos;d love to play a show with you!</p>
         <p className="p-2"><Link href="https://outlawsofthesun.blogspot.com/2023/08/graveseer-identity-ep-review.html" target="_blank">Check out a review of our album &quot;Infernal&quot;</Link></p>
       </div>
