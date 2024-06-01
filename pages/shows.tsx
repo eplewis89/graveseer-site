@@ -21,12 +21,18 @@ const Page = () => {
       </Head>
       
       <div className="md:w-full lg:w-1/3">
-        <h1 className="text-center text-4xl m-4">Past Shows</h1>
+        <h1 className="text-center text-4xl m-4">Upcoming Shows</h1>
         <div className="text-center text-md m-4">
+          <p className="p-2">June 7, 2024 @ The Bancroft</p>
           <p className="p-2">
-            For booking inquiries, please contact us at <Link href='mailto:booking@graveseerband.com'>booking@graveseerband.com</Link>
+            <Image 
+              src="/2024-jun-7-bancroft.jpg" 
+              alt="graveseer at the bancroft san diego june 7 2024"
+              width={800}
+              height={500}/>
           </p>
         </div>
+        <h1 className="text-center text-4xl m-4">Past Shows</h1>
         <div className="text-center text-md m-4">
           <p className="p-2">
             <Image 
@@ -35,9 +41,7 @@ const Page = () => {
               width={800}
               height={500}/>
           </p>
-          <p className="p-2">Jan 12, 2024 @ Che Cafe</p>
         </div>
-        <hr />
         <div className="text-center text-md m-4">
           <p className="p-2">
             <Image 
@@ -46,7 +50,6 @@ const Page = () => {
               width={800}
               height={500}/>
           </p>
-          <p className="p-2">August 15, 2023 @ The Bancroft</p>
         </div>
       </div>
     </>
