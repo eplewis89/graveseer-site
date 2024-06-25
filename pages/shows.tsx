@@ -23,7 +23,10 @@ const Page = () => {
       <div className="md:w-full lg:w-1/3">
         <h1 className="text-center text-4xl m-4">Upcoming Shows</h1>
         <div className="text-center text-md m-4">
-          <p className="p-2">June 7, 2024 @ The Bancroft</p>
+          <p className="p-2">No Upcoming Shows</p>
+        </div>
+        <h1 className="text-center text-4xl m-4">Past Shows</h1>
+        <div className="text-center text m-4">
           <p className="p-2">
             <Image 
               src="/2024-jun-7-bancroft.jpg" 
@@ -32,7 +35,6 @@ const Page = () => {
               height={500}/>
           </p>
         </div>
-        <h1 className="text-center text-4xl m-4">Past Shows</h1>
         <div className="text-center text-md m-4">
           <p className="p-2">
             <Image 

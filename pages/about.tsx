@@ -20,12 +20,12 @@ const Page = () => {
         <meta name="language" content="English"/>
       </Head>
       <div className="md:w-full lg:w-1/3">
-        <div className="flex justify-center items-center m-16">
+        <div className="flex justify-center items-center m-4">
           <Image
-            src="/graveseer-skull-dead.png"
+            src="/band.jpg"
             alt="band photo"
-            width={200}
-            height={200}/>
+            width={800}
+            height={800}/>
         </div>
         <div className="text-left text-md m-4">
           <p className="p-2">Hailing from San Diego, California, Graveseer is a progressive doom metal band with Stan on Drums, Theo on guitar, and Erin on vocals and bass.</p>
