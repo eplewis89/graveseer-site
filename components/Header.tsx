@@ -12,8 +12,8 @@ export default function Header() {
                         <Image
                             src="/graveseer-logo-dead.png"
                             alt="graveseer logo"
-                            width={500}
-                            height={500}/>
+                            width={80}
+                            height={80}/>
                     </span>
                 </Link>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
