@@ -27,17 +27,8 @@ const Page = () => {
               width={800}
               height={500}/>
           </p>
-          <p className="p-2">
-            Tickets: <Link href='https://www.theheartob.com/event-details-registration/ten-twenty-kill-benthic-eels-and-more' target='_blank'>Humble Heart</Link>
-          </p>
-        </div>
-        <div className="text-center text-md m-4 invisible">
-          <p className="p-2 animate-[appear_cubic-bezier(0.4,_0,_0.2,_1)_10000ms_forwards]">
-            <Image
-              src="/graveseer-skull-dead.png"
-              alt="graveseer skull logo"
-              width={800}
-              height={500}/>
+          <p className="m-4 p-2">
+            <Link className="p-4 button rounded-sm" href='https://www.theheartob.com/event-details-registration/ten-twenty-kill-benthic-eels-and-more' target='_blank'>Buy Tickets &rarr;</Link>
           </p>
         </div>
       </div>

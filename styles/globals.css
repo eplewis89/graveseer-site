@@ -15,3 +15,9 @@ body {
 a:hover {
   text-decoration: underline;
 }
+
+
+.button {
+  color: rgb(var(--background-rgb));
+  background: rgb(var(--foreground-rgb));
+}
