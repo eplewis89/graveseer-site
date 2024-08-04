@@ -34,7 +34,7 @@ const Page = () => {
               height={500}/>
           </p>
           <p className="p-2">
-            Tickets: <Link href='mailto:booking@graveseerband.com'>booking@graveseerband.com</Link>
+            Tickets: <Link href='https://www.theheartob.com/event-details-registration/ten-twenty-kill-benthic-eels-and-more' target='_blank'>Humble Heart</Link>
           </p>
         </div>
         <h1 className="text-center text-4xl m-4">Past Shows</h1>
