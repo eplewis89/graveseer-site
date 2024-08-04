@@ -22,8 +22,20 @@ const Page = () => {
       
       <div className="md:w-full lg:w-1/3">
         <h1 className="text-center text-4xl m-4">Upcoming Shows</h1>
-        <div className="text-center text-md m-4">
+        <div className="text-center text-md m-4 invisible">
           <p className="p-2">No Upcoming Shows</p>
+        </div>
+        <div className="text-center text-md m-4">
+          <p className="p-2">
+            <Image 
+              src="/2024-sep-1-humbleheart.jpg" 
+              alt="graveseer at humble heart san diego 1 sep 2024"
+              width={800}
+              height={500}/>
+          </p>
+          <p className="p-2">
+            Tickets: <Link href='mailto:booking@graveseerband.com'>booking@graveseerband.com</Link>
+          </p>
         </div>
         <h1 className="text-center text-4xl m-4">Past Shows</h1>
         <div className="text-center text m-4">

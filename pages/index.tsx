@@ -4,6 +4,7 @@ import type { ReactElement } from 'react'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 const Page = () => {
   return (
     <>
@@ -19,6 +20,18 @@ const Page = () => {
       </Head>
       <div className="md:w-full lg:w-1/3">
         <div className="text-center text-md m-4">
+          <p className="p-2">
+            <Image 
+              src="/2024-sep-1-humbleheart.jpg" 
+              alt="graveseer at humble heart san diego 1 sep 2024"
+              width={800}
+              height={500}/>
+          </p>
+          <p className="p-2">
+            Tickets: <Link href='mailto:booking@graveseerband.com'>booking@graveseerband.com</Link>
+          </p>
+        </div>
+        <div className="text-center text-md m-4 invisible">
           <p className="p-2 animate-[appear_cubic-bezier(0.4,_0,_0.2,_1)_10000ms_forwards]">
             <Image
               src="/graveseer-skull-dead.png"
