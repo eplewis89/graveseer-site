@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="mt-auto bg-black">
             <div className="text-center text-md m-4">
                 <p className="p-2">
-                    For booking inquiries, please contact us at <Link href='mailto:booking@graveseerband.com'>booking@graveseerband.com</Link>
+                    For booking inquiries, please contact us at <Link href='mailto:graveseerband@gmail.com'>graveseerband@gmail.com</Link>
                 </p>
                 <p className="p-2">
                     Graveseer © { new Date().getFullYear() }
