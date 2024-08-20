@@ -37,6 +37,15 @@ const Page = () => {
             <Link className="p-4 button rounded-sm" href='https://www.theheartob.com/event-details-registration/ten-twenty-kill-benthic-eels-and-more' target='_blank'>Buy Tickets &rarr;</Link>
           </p>
         </div>
+        <div className="text-center text-md m-4">
+          <p className="p-2">
+            <Image 
+              src="/2024-sep-12-kensingtonclub.jpg" 
+              alt="graveseer at kensington club san diego 12 sep 2024"
+              width={800}
+              height={500}/>
+          </p>
+        </div>
         <h1 className="text-center text-4xl m-4">Past Shows</h1>
         <div className="text-center text m-4">
           <p className="p-2">
