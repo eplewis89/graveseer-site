@@ -21,58 +21,59 @@ const Page = () => {
       </Head>
       
       <div className="md:w-full lg:w-1/3">
-        <h1 className="text-center text-4xl m-4">Upcoming Shows</h1>
         <div className="text-center text-md m-4 invisible">
-          <p className="p-2">No Upcoming Shows</p>
-        </div>
-        <div className="text-center text-md m-4">
-          <p className="p-2">
-            <Image 
-              src="/2024-sep-1-humbleheart.jpg" 
-              alt="graveseer at humble heart san diego 1 sep 2024"
-              width={800}
-              height={500}/>
-          </p>
-          <p className="m-4 p-2">
-            <Link className="p-4 button rounded-sm" href='https://www.theheartob.com/event-details-registration/ten-twenty-kill-benthic-eels-and-more' target='_blank'>Buy Tickets &rarr;</Link>
-          </p>
-        </div>
-        <div className="text-center text-md m-4">
-          <p className="p-2">
-            <Image 
-              src="/2024-sep-12-kensingtonclub.jpg" 
-              alt="graveseer at kensington club san diego 12 sep 2024"
-              width={800}
-              height={500}/>
-          </p>
+          <p className="p-2">-</p>
         </div>
         <h1 className="text-center text-4xl m-4">Past Shows</h1>
-        <div className="text-center text m-4">
-          <p className="p-2">
-            <Image 
-              src="/2024-jun-7-bancroft.jpg" 
-              alt="graveseer at the bancroft san diego june 7 2024"
-              width={800}
-              height={500}/>
-          </p>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="text-center text-md m-4">
+            <p className="p-2">
+              <Image 
+                src="/2024-sep-12-kensingtonclub.jpg" 
+                alt="graveseer at kensington club san diego 12 sep 2024"
+                width={800}
+                height={500}/>
+            </p>
+          </div>
+          <div className="text-center text-md m-4">
+            <p className="p-2">
+              <Image 
+                src="/2024-sep-1-humbleheart.jpg" 
+                alt="graveseer at humble heart san diego 1 sep 2024"
+                width={800}
+                height={500}/>
+            </p>
+          </div>
+          <div className="text-center text m-4">
+            <p className="p-2">
+              <Image 
+                src="/2024-jun-7-bancroft.jpg" 
+                alt="graveseer at the bancroft san diego june 7 2024"
+                width={800}
+                height={500}/>
+            </p>
+          </div>
+          <div className="text-center text-md m-4">
+            <p className="p-2">
+              <Image 
+                src="/2024-jan-12-checafe.jpg" 
+                alt="graveseer at che cafe san diego 12 jan 2024"
+                width={800}
+                height={500}/>
+            </p>
+          </div>
+          <div className="text-center text-md m-4">
+            <p className="p-2">
+              <Image 
+                src="/2023-aug-15-bancroft.jpg" 
+                alt="graveseer at the bancroft san diego 15 aug 2023"
+                width={800}
+                height={500}/>
+            </p>
+          </div>
         </div>
-        <div className="text-center text-md m-4">
-          <p className="p-2">
-            <Image 
-              src="/2024-jan-12-checafe.jpg" 
-              alt="graveseer at che cafe san diego 12 jan 2024"
-              width={800}
-              height={500}/>
-          </p>
-        </div>
-        <div className="text-center text-md m-4">
-          <p className="p-2">
-            <Image 
-              src="/2023-aug-15-bancroft.jpg" 
-              alt="graveseer at the bancroft san diego 15 aug 2023"
-              width={800}
-              height={500}/>
-          </p>
+        <div className="text-center text-md m-4 invisible">
+          <p className="p-2">-</p>
         </div>
       </div>
     </>

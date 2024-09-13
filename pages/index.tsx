@@ -19,17 +19,23 @@ const Page = () => {
         <meta name="language" content="English"/>
       </Head>
       <div className="md:w-full lg:w-1/3">
+        <div className="text-center text-md m-4 invisible">
+          <p className="p-2">-</p>
+        </div>
         <div className="text-center text-md m-4">
           <p className="p-2">
             <Image 
-              src="/2024-sep-1-humbleheart.jpg" 
-              alt="graveseer at humble heart san diego 1 sep 2024"
+              src="/2024-oct-28-til-two-club.jpg" 
+              alt="graveseer at til two club san diego 28 oct 2024"
               width={800}
               height={500}/>
           </p>
           <p className="m-4 p-2">
-            <Link className="p-4 button rounded-sm" href='https://www.theheartob.com/event-details-registration/ten-twenty-kill-benthic-eels-and-more' target='_blank'>Buy Tickets &rarr;</Link>
+            <Link className="p-4 button rounded-sm" href='https://www.facebook.com/events/1216476479570657' target='_blank'>Facebook Event Link</Link>
           </p>
+        </div>
+        <div className="text-center text-md m-4 invisible">
+          <p className="p-2">-</p>
         </div>
       </div>
     </>
