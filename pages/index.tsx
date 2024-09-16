@@ -34,6 +34,15 @@ const Page = () => {
             <Link className="p-4 button rounded-sm" href='https://www.facebook.com/events/1216476479570657' target='_blank'>Facebook Event Link</Link>
           </p>
         </div>
+        <div className="text-center text-md m-4">
+          <p className="p-2">
+            <Image 
+              src="/2024-nov-14-checafe.jpg" 
+              alt="graveseer at che cafe san diego 14 nov 2024"
+              width={800}
+              height={500}/>
+          </p>
+        </div>
         <div className="text-center text-md m-4 invisible">
           <p className="p-2">-</p>
         </div>
