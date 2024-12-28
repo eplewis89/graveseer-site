@@ -4,7 +4,7 @@ import type { ReactElement } from 'react'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+
 const Page = () => {
   return (
     <>
@@ -25,22 +25,13 @@ const Page = () => {
         <div className="text-center text-md m-4">
           <p className="p-2">
             <Image 
-              src="/2024-oct-28-til-two-club.jpg" 
-              alt="graveseer at til two club san diego 28 oct 2024"
+              src="/albumcover.jpg" 
+              alt="graveseer new album"
               width={800}
               height={500}/>
           </p>
           <p className="m-4 p-2">
-            <Link className="p-4 button rounded-sm" href='https://www.facebook.com/events/1216476479570657' target='_blank'>Facebook Event Link</Link>
-          </p>
-        </div>
-        <div className="text-center text-md m-4">
-          <p className="p-2">
-            <Image 
-              src="/2024-nov-14-checafe.jpg" 
-              alt="graveseer at che cafe san diego 14 nov 2024"
-              width={800}
-              height={500}/>
+            New Album Coming Soon
           </p>
         </div>
         <div className="text-center text-md m-4 invisible">

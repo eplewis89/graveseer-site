@@ -29,6 +29,33 @@ const Page = () => {
           <div className="text-center text-md m-4">
             <p className="p-2">
               <Image 
+                src="/2024-dec-15-checafe.jpg" 
+                alt="graveseer at che cafe san diego 15 dec 2024"
+                width={800}
+                height={500}/>
+            </p>
+          </div>
+          <div className="text-center text-md m-4">
+            <p className="p-2">
+              <Image 
+                src="/2024-nov-14-checafe.jpg" 
+                alt="graveseer at che cafe san diego 14 nov 2024"
+                width={800}
+                height={500}/>
+            </p>
+          </div>
+          <div className="text-center text-md m-4">
+            <p className="p-2">
+              <Image 
+                src="/2024-oct-28-til-two-club.jpg" 
+                alt="graveseer at til two club san diego 28 oct 2024"
+                width={800}
+                height={500}/>
+            </p>
+          </div>
+          <div className="text-center text-md m-4">
+            <p className="p-2">
+              <Image 
                 src="/2024-sep-12-kensingtonclub.jpg" 
                 alt="graveseer at kensington club san diego 12 sep 2024"
                 width={800}
