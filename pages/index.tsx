@@ -25,6 +25,18 @@ const Page = () => {
         <div className="text-center text-md m-4">
           <p className="p-2">
             <Image 
+              src="/2025-apr-6-til-two-club.jpg" 
+              alt="graveseer new album"
+              width={800}
+              height={500}/>
+          </p>
+        </div>
+        <div className="text-center text-md m-4 invisible">
+          <p className="p-2">-</p>
+        </div>
+        <div className="text-center text-md m-4">
+          <p className="p-2">
+            <Image 
               src="/albumcover.jpg" 
               alt="graveseer new album"
               width={800}
