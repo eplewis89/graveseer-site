@@ -29,6 +29,17 @@ const Page = () => {
           <div className="text-center text-md m-4">
             <p className="p-2">
               <Image 
+                src="/2025-apr-6-til-two-club.jpg" 
+                alt="graveseer at til two club san diego 6 apr 2025"
+                width={800}
+                height={500}/>
+            </p>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="text-center text-md m-4">
+            <p className="p-2">
+              <Image 
                 src="/2024-dec-15-checafe.jpg" 
                 alt="graveseer at che cafe san diego 15 dec 2024"
                 width={800}
