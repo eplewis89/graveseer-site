@@ -20,12 +20,12 @@ const Page = () => {
         <meta name="language" content="English"/>
       </Head>
       
-      <div className="md:w-full lg:w-1/3">
-        <div className="text-center text-md m-4 invisible">
-          <p className="p-2">-</p>
+      <div className="md:w-full lg:w-1/2">
+        <div className="text-center text-md m-4">
+          <p className="p-2">For booking inquiries, please contact us at <Link href='mailto:graveseerband@gmail.com'>graveseerband@gmail.com</Link></p>
         </div>
         <h1 className="text-center text-4xl m-4">Past Shows</h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-3 gap-4">
           <div className="text-center text-md m-4">
             <p className="p-2">
               <Image 
