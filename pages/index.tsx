@@ -32,7 +32,7 @@ const Page = () => {
               height={500}/>
           </p>
           <p className="m-4 p-2">
-            <Link href='https://graveseer.bandcamp.com/track/infernal'>Listen to our new single "Infernal" on Bandcamp</Link>
+            <Link href='https://graveseer.bandcamp.com/track/infernal'>Listen to our new single Infernal on Bandcamp</Link>
           </p>
         </div>
         <div className="text-center text-md m-4 invisible">
