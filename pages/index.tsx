@@ -32,19 +32,7 @@ const Page = () => {
               height={500}/>
           </p>
           <p className="m-4 p-2">
-            <Link href='https://graveseer.bandcamp.com/track/infernal'>Listen to our new single Infernal on Bandcamp</Link>
-          </p>
-        </div>
-        <div className="text-center text-md m-4 invisible">
-          <p className="p-2">-</p>
-        </div>
-        <div className="text-center text-md m-4">
-          <p className="p-2">
-            <Image 
-              src="/2025-may-6-spacebar.jpg" 
-              alt="graveseer space bar may 6 2025"
-              width={800}
-              height={500}/>
+            <Link href='https://recordu.lnk.to/WnEn4e'>Listen to our new single Infernal</Link>
           </p>
         </div>
         <div className="text-center text-md m-4 invisible">
