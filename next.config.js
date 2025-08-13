@@ -2,7 +2,18 @@
 const nextConfig = {
   reactStrictMode: true,
   images:{
-    domains:["graveseerband.com"]
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'graveseerband.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'http',
+        hostname: 'locahost',
+        pathname: '**',
+      }
+    ],
   }
 }
 
