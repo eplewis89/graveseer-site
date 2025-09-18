@@ -26,21 +26,6 @@ const Page = () => {
         <div className="text-center text-md m-4">
           <p className="p-2">
             <Image 
-              src="/2025-sep-12-brickbybrick.jpg" 
-              alt="graveseer at brick by brick sept 12 2025"
-              width={800}
-              height={500}/>
-          </p>
-          <p className="m-4 p-2">
-            <Link href='https://www.ticketweb.com/event/anciients-with-special-guests-at-brick-by-brick-tickets/14400463?pl=brickbybrick'>Pre-Sale Tickets Here</Link>
-          </p>
-        </div>
-        <div className="text-center text-md m-4 invisible">
-          <p className="p-2">-</p>
-        </div>
-        <div className="text-center text-md m-4">
-          <p className="p-2">
-            <Image 
               src="/infernalcover.jpg" 
               alt="graveseer infernal single"
               width={800}
